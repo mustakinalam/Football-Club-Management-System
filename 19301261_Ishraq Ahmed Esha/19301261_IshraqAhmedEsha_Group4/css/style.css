@@ -1,0 +1,134 @@
+  /*Login button start*/
+  .button {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #fb3b00;
+  border-radius: 15px;
+  border: 1px solid #ff3c01;
+  border-width: 1px 1px 1px 1px;
+  padding: 020px 020px 020px 020px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
+    color: #fff;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4)
+  }
+  .button > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+  .button > i {
+    font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: static
+  }
+  .button > .ld {
+    font-size: initial
+  }
+  /*Login button end*/
+
+.log-form{
+  width: 500px;
+  border: 5px solid #ccc;
+  padding: 40px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.input-form {
+  display: block;
+  border: 2px solid #ccc;
+  width: 95%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.label-form {
+  color: #888;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.button-log {
+   -webkit-border-radius: 24px;
+   -moz-border-radius: 24px;
+   border-radius: 24px;
+   height: 3px;
+   line-height: 3px;
+   color: #FFFFFF;
+   font-family: Arial;
+   width: 300px;
+   font-size: 18px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #F31B2F;
+   text-decoration: none;
+   display: block;
+   cursor: pointer;
+   text-align: center;
+   margin: auto;
+}
+
+/*.button-log:hover {
+   background: #DF1951;
+   border: solid #DF1951 0;
+   -webkit-border-radius: 24px;
+   -moz-border-radius: 24px;
+   border-radius: 24px;
+   text-decoration: none;
+}
+*/
+.body-log{
+  /*background: #1690A7;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.title-log{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.title-sig{
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 300px;
+}
+
+.sub-log{
+  text-align: center;
+  text-decoration: bold;
+}
+
+a{
+  color: black;
+}
+
+a:hover, a:active{
+  color: red;
+}
